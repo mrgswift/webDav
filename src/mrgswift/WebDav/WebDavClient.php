@@ -912,8 +912,8 @@ class WebDavClient
      */
     protected function getAuth()
     {
-        $auth = $this->requestOptions['auth'];
-        unset($auth[2]);
+        $auth = !empty($this->requestOptions['auth']) ? $this->requestOptions['auth'] : null;
+        if ($auth != null) { unset($auth[2]); }
 
         return $auth;
     }
