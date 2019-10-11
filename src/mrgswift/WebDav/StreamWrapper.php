@@ -5,10 +5,10 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Tgi\WebDav;
+namespace mrgswift\WebDav;
 
-use Tgi\WebDav\Exception\StreamException;
-use Tgi\WebDav\Exception\NoSuchResourceException;
+use mrgswift\WebDav\Exception\StreamException;
+use mrgswift\WebDav\Exception\NoSuchResourceException;
 use GuzzleHttp\Stream\Stream;
 use GuzzleHttp\Url;
 

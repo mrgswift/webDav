@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Tgi\WebDav\Property;
+namespace mrgswift\WebDav\Property;
 
 /**
  * Specifies the nature of a resource

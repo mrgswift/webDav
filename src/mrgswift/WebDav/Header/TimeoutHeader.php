@@ -5,10 +5,10 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Tgi\WebDav\Header;
+namespace mrgswift\WebDav\Header;
 
-use Tgi\WebDav\Header\TimeoutValue\TimeoutValueFactory;
-use Tgi\WebDav\Header\TimeoutValue\TimeoutValueInterface;
+use mrgswift\WebDav\Header\TimeoutValue\TimeoutValueFactory;
+use mrgswift\WebDav\Header\TimeoutValue\TimeoutValueInterface;
 
 /**
  * A <tt>Timeout</tt> header

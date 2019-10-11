@@ -6,10 +6,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Tgi\WebDav;
+namespace mrgswift\WebDav;
 
-use Tgi\WebDav\Property\DateTimeProperty;
-use Tgi\WebDav\Property\ResourceType;
+use mrgswift\WebDav\Property\DateTimeProperty;
+use mrgswift\WebDav\Property\ResourceType;
 
 /**
  * @covers Tgi\WebDav\Response

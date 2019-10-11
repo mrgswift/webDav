@@ -6,9 +6,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Tgi\WebDav;
+namespace mrgswift\WebDav;
 
-use Tgi\WebDav\Filder;
+use mrgswift\WebDav\Filder;
 
 /**
  * A multi-status response that contains multiple response messages

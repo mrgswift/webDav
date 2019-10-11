@@ -6,10 +6,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Tgi\WebDav\Property;
+namespace mrgswift\WebDav\Property;
 
-use Tgi\WebDav\Lock;
-use Tgi\WebDav\LockableInterface;
+use mrgswift\WebDav\Lock;
+use mrgswift\WebDav\LockableInterface;
 
 /**
  * Describes the active locks on a resource

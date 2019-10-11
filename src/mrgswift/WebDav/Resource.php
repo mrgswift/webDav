@@ -5,12 +5,12 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Tgi\WebDav;
+namespace mrgswift\WebDav;
 
-use Tgi\WebDav\Property\DateTimeProperty;
-use Tgi\WebDav\Property\SupportedLock;
-use Tgi\WebDav\Property\LockDiscovery;
-use Tgi\WebDav\Property\ResourceType;
+use mrgswift\WebDav\Property\DateTimeProperty;
+use mrgswift\WebDav\Property\SupportedLock;
+use mrgswift\WebDav\Property\LockDiscovery;
+use mrgswift\WebDav\Property\ResourceType;
 
 /**
  * Represents a resource on the WebDAV server

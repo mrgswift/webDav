@@ -5,7 +5,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Tgi\WebDav;
+namespace mrgswift\WebDav;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Url;
@@ -13,9 +13,9 @@ use GuzzleHttp\Stream\Stream;
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Message\Response as HttpResponse;
-use Tgi\WebDav\Exception\NoSuchResourceException;
-use Tgi\WebDav\Exception\HttpException;
-use Tgi\WebDav\Header\TimeoutHeader;
+use mrgswift\WebDav\Exception\NoSuchResourceException;
+use mrgswift\WebDav\Exception\HttpException;
+use mrgswift\WebDav\Header\TimeoutHeader;
 
 /**
  * WebDAV client

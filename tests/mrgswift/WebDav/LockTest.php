@@ -6,10 +6,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Tgi\WebDav;
+namespace mrgswift\WebDav;
 
-use Tgi\WebDav\Header\TimeoutHeader;
-use Tgi\WebDav\Header\DepthHeader;
+use mrgswift\WebDav\Header\TimeoutHeader;
+use mrgswift\WebDav\Header\DepthHeader;
 
 /**
  * @covers Tgi\WebDav\Lock

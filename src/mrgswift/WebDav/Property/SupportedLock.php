@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Tgi\WebDav\Property;
+namespace mrgswift\WebDav\Property;
 
 /**
  * Provides a listing of the lock capabilities supported by a resource

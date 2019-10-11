@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Tgi\WebDav;
+namespace mrgswift\WebDav;
 
 /**
  * Holds a single response describing the effect of a method on resource and/or its properties

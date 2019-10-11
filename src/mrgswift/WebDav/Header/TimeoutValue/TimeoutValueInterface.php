@@ -1,5 +1,5 @@
 <?php
-namespace Tgi\WebDav\Header\TimeoutValue;
+namespace mrgswift\WebDav\Header\TimeoutValue;
 
 /**
  *

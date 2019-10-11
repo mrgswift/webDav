@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Tgi\WebDav;
+namespace mrgswift\WebDav;
 
 class PropertySetTest extends \PHPUnit_Framework_TestCase
 {

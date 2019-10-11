@@ -11,13 +11,13 @@
 
   <testsuites>
     <testsuite name="WebDav Test Suite">
-      <directory>tests/Tgi/</directory>
+      <directory>tests/mrgswift/</directory>
     </testsuite>
   </testsuites>
 
   <filter>
     <whitelist>
-      <directory suffix=".php">src/Tgi/</directory>
+      <directory suffix=".php">src/mrgswift/</directory>
     </whitelist>
   </filter>
 </phpunit>

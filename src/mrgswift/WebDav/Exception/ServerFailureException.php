@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Tgi\WebDav\Exception;
+namespace mrgswift\WebDav\Exception;
 
 /**
  *

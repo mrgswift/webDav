@@ -7,7 +7,7 @@
  */
 
 
-namespace Tgi\WebDav\Exception;
+namespace mrgswift\WebDav\Exception;
 
 /**
  *

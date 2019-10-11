@@ -8,7 +8,7 @@
 
 namespace Tgi\WebDav\Property;
 
-use Tgi\WebDav\Lock;
+use mrgswift\WebDav\Lock;
 
 /**
  * @covers Tgi\WebDav\Property\LockDiscovery

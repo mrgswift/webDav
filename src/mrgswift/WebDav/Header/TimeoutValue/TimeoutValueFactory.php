@@ -1,7 +1,7 @@
 <?php
-namespace Tgi\WebDav\Header\TimeoutValue;
+namespace mrgswift\WebDav\Header\TimeoutValue;
 
-use Tgi\WebDav\Exception\RuntimeException;
+use mrgswift\WebDav\Exception\RuntimeException;
 
 /**
  *

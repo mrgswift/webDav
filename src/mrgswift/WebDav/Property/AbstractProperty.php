@@ -6,9 +6,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Tgi\WebDav\Property;
+namespace mrgswift\WebDav\Property;
 
-use Tgi\WebDav\PropertyInterface;
+use mrgswift\WebDav\PropertyInterface;
 
 /**
  *

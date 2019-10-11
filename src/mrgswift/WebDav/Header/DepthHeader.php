@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Tgi\WebDav\Header;
+namespace mrgswift\WebDav\Header;
 
 /**
  * A <tt>Depth</tt> header
