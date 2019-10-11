@@ -1,5 +1,5 @@
 {
-    "name": "tgi/webdav",
+    "name": "mrgswift/webdav",
     "description": "The simple PHP WebDAV client and stream wrapper forked from gletournel/WebDAV.",
     "keywords": ["PHP","WebDAV","Stream","Wrapper","Filder"],
     "type": "library",
@@ -7,8 +7,8 @@
     "minimum-stability": "dev",
     "authors": [
         {
-            "name": "Tgicm",
-            "email": "cmalfroy@tgi.fr"
+            "name": "mrgswift",
+            "email": "mrgswift@yahoo.com"
         }
     ],
     "require": {
@@ -24,6 +24,6 @@
         "symfony/finder": "Allows you to more easily filter the files that the stream wrapper returns"
     },
     "autoload": {
-        "psr-0": {"Tgi\\WebDav": "src/"}
+        "psr-0": {"mrgswift\\WebDav": "src/"}
     }
 }
