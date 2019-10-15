@@ -451,6 +451,7 @@ class WebDavClient
     {
         $depth = isset($options['depth']) ? (int) $options['depth'] : 0;
         $properties = isset($options['properties']) ? $options['properties'] : array();
+        $custom_headers = isset($options['headers']) ? $options['headers'] : null;
 
         $dom = new \DOMDocument('1.0', 'UTF-8');
         $xPropfind = $dom->createElementNS('DAV:', 'D:propfind');
@@ -482,6 +483,7 @@ class WebDavClient
             'Content-Type' => 'Content-Type: text/xml; charset="utf-8"',
             'Depth' => $depth,
         );
+        if (!empty($custom_headers)) { $headers = array_merge($headers,$custom_headers); }
 
         $request = new Request('PROPFIND', $uri, $headers, $body);
 
